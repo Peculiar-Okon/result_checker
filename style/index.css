@@ -26,6 +26,11 @@
       color: #006400;
       font-weight: bold;
     }
+    .menu-icon {
+      display: none; /* Hide on larger screens */
+      font-size: 24px;
+      cursor: pointer;
+    }
     .nav-right{
       margin-left: 50%;
     }

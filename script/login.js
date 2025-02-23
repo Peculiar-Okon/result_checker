@@ -8,6 +8,3 @@ hamburger.addEventListener('click', () => {
   // Toggle the 'active' class on the nav links
   navLinks.classList.toggle('active');
 });
-
-
-
