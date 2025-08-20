@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Result Checker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+        }
+        .hero {
+            height: 100vh;
+            /* background-position: center; */
+            color: navy ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero-content {
+            display: flex;
+            gap: 1rem;
+            /* border: 2px solid black; */
+        }
+        .hero-content div{
+            width: 50%;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            margin-top: 10%;
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+            font-family: cursive;
+        }
+        .logoimg img{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+        }
+        .btn {
+            position: absolute;
+            top: 80%;
+            display: block;
+            padding: 10px 25px;
+            background: white;
+            color: navy;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: lightgray;
+        }
+        .footer {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero-content {
+                flex-direction: column;
+                align-items: center;
+        }
+            .hero p {
+                font-size: 1rem;
+            }
+            .btn {
+                font-size: 1rem;
+                padding: 8px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <div class="logoimg">
+                <img src="../images/schoollogo.jpg" alt="">
+                <h1> Result Checker</h1>
+            </div>
+            <div>
+            <p>Check your results easily and securely with our trusted platform. Simply enter your registration details to get started.</p>
+            </div>
+        </div>
+        <a href="./signup.html" class="btn">Get Started</a>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Result Checker. All Rights Reserved.</p>
+        <p>
+            <a href="/about">About Us</a> |
+            <a href="/privacy">Privacy Policy</a> |
+            <a href="/terms">Terms of Use</a>
+        </p>
+    </footer>
+</body>
+</html>
